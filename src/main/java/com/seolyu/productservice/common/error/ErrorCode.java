@@ -17,6 +17,8 @@ public enum ErrorCode {
     INVALID_AUTHORITY(HttpStatus.FORBIDDEN, "10006", "접근 권한이 없습니다."),
     FILE_DOWNLOAD_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, "10007", "File Download Error"),
 
+    // Product
+    PRODUCT_NOT_FOUND(HttpStatus.BAD_REQUEST, "P001", "상품을 찾을 수 없습니다."),
 
     ;
 
