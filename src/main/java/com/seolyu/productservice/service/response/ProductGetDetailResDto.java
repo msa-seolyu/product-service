@@ -1,6 +1,6 @@
-package com.seolyu.productservice.domain.product.dto;
+package com.seolyu.productservice.service.response;
 
-import com.seolyu.productservice.domain.product.entity.Product;
+import com.seolyu.productservice.domain.entity.Product;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

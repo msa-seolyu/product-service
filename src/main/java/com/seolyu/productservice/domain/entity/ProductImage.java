@@ -1,4 +1,4 @@
-package com.seolyu.productservice.domain.product.entity;
+package com.seolyu.productservice.domain.entity;
 
 import com.seolyu.productservice.common.model.BaseEntityDateAggregate;
 import jakarta.persistence.*;

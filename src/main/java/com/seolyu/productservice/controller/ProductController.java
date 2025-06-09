@@ -1,7 +1,7 @@
-package com.seolyu.productservice.domain.product.controller;
+package com.seolyu.productservice.controller;
 
-import com.seolyu.productservice.domain.product.dto.ProductGetDetailResDto;
-import com.seolyu.productservice.domain.product.service.ProductService;
+import com.seolyu.productservice.service.response.ProductGetDetailResDto;
+import com.seolyu.productservice.service.ProductService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;

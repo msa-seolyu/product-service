@@ -1,10 +1,10 @@
-package com.seolyu.productservice.domain.product.service;
+package com.seolyu.productservice.service;
 
 import com.seolyu.productservice.common.error.ErrorCode;
 import com.seolyu.productservice.common.error.exception.SeolyuException;
-import com.seolyu.productservice.domain.product.dto.ProductGetDetailResDto;
-import com.seolyu.productservice.domain.product.entity.Product;
-import com.seolyu.productservice.domain.product.repository.ProductRepository;
+import com.seolyu.productservice.service.response.ProductGetDetailResDto;
+import com.seolyu.productservice.domain.entity.Product;
+import com.seolyu.productservice.domain.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

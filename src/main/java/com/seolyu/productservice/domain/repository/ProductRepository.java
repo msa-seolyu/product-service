@@ -1,6 +1,6 @@
-package com.seolyu.productservice.domain.product.repository;
+package com.seolyu.productservice.domain.repository;
 
-import com.seolyu.productservice.domain.product.entity.Product;
+import com.seolyu.productservice.domain.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
